@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:wght@100&family=Roboto+Mono&family=Roboto:ital@1&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Microsoft JhengHei", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+body {
+  font-size: 16px;
+  font-family: 'Lato', 'Roboto Mono', monospace; }
+
+.d-f {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.a-i-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.j-c-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.j-c-s-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.f-x-d-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.mb-32 {
+  margin-bottom: 32px; }
+
+.ml-32 {
+  margin-left: 32px; }
+
+.mb-42 {
+  margin-bottom: 42px; }
+
+.mr-16 {
+  margin-right: 16px; }
+
+.pl-32 {
+  padding-left: 32px; }
+
+.pt-40 {
+  padding-top: 40px; }
+
+.pb-32 {
+  padding-bottom: 32px; }
+
+.fw-700 {
+  font-weight: 700; }
+
+.fz-14 {
+  font-size: 14px; }
+
+.fc-gray-600 {
+  color: #6C757D; }
+
+.text_hide_behide_img {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.user_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 24px; }
+
+.layout_side {
+  background: #F8F9FA;
+  width: 23%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0; }
+  .layout_side .layout_title_img_menu h1 a {
+    display: block;
+    background: url(../images/logo-ANSWER.svg) no-repeat;
+    width: 151px;
+    height: 40px; }
+  .layout_side .layout_title_img_menu ul {
+    height: 253px; }
+    .layout_side .layout_title_img_menu ul li {
+      height: 32px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding-left: 32px; }
+      .layout_side .layout_title_img_menu ul li a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .layout_side .layout_title_img_menu ul li a img {
+          margin-right: 16px; }
+      .layout_side .layout_title_img_menu ul li:hover {
+        border-left: 4px solid #198754;
+        color: #198754;
+        padding-left: 28px; }
+
+.content_side {
+  position: absolute;
+  width: 77%;
+  height: 100%;
+  top: 0;
+  left: 23%; }
+
+/*# sourceMappingURL=all.css.map */
