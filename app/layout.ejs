@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <div class="wrap d-f">
+    <div class="layout_side mb-32 pt-40 pb-32 d-f f-x-d-c j-c-s-b">
+      <div class="layout_title_img_menu">
+        <h1><a href="#" class="text_hide_behide_img ml-32 mb-42">Answer</a></h1>
+        <nav>
+          <ul class="d-f f-x-d-c j-c-s-b fw-700">
+            <li><a href="#"><img src="./assets/images/layout_menu.dashboard.png" alt="Dashboard">Dashboard</a></li>
+            <li><a href="#"><img src="./assets/images/layout_menu.question.svg" alt="Question">Question</a></li>
+            <li><a href="#"><img src="./assets/images/layout_menu.assignment.svg" alt="Assignment">Assignment</a></li>
+            <li><a href="#"><img src="./assets/images/layout_menu.course.svg" alt="Course">Course</a></li>
+            <li><a href="#"><img src="./assets/images/layout_menu.admin.svg" alt="Admin">Admin</a></li>
+            <li><a href="#"><img src="./assets/images/layout_menu.settings.svg" alt="Settings">Settings</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="layout_login_user ml-32 d-f">
+        <div class="layout_login_user_pic">
+          <img class="user_img mr-16" src="./assets/images/user_andy_chen.jpeg" alt="#">
+        </div>
+        <div class="layout_login_user_info d-f f-x-d-c j-c-s-b">
+          <p class="fw-700">Andy Chen</p>
+          <p class="fz-14 fc-gray-600">andy0401@mail.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="content_side">
+      <%- contents %>
+    </div>
+  </div>
+
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
