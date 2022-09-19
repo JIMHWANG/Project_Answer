@@ -1,0 +1,12 @@
+.admin_pagination {
+    position: fixed;
+    right: 32px;
+
+    .pagination {
+        border: 1px solid #198754;
+
+        .active {
+            background-color: #198754;
+        }
+    }
+}

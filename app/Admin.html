@@ -1,0 +1,181 @@
+---
+title: Admin
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="content_header d-f j-c-s-b">
+    <div class="content_header_title_function d-f j-c-s-b">
+        <h2>Admin</h2>
+        <a href="#" class="d-f a-i-c j-c-s-b fw-700" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo"><img src="./assets/images/plus_sign.svg" alt="#">Add New Admin</a>
+    </div>
+    <div class="content_header_search_notice d-f j-c-s-b">
+        <a href="#"><img src="./assets/images/search_sign.svg" alt="search"></a>
+        <a href="#"><img src="./assets/images/bell_sign.svg" alt="notice"></a>
+    </div>
+</div>
+
+<!-- Admin Table -->
+<table class="admin_table table table-hover fc-gray-900">
+    <thead class="fw-700">
+        <tr>
+            <th scope="col" class="d-f a-i-c">ID<img class="ml-7" src="./assets/images/arrow_downward_sign.svg"
+                    alt="arrow_downward_sign">
+            </th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Verified</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">#1</th>
+            <td>Emir Wicks</td>
+            <td>emir.wicks@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#2</th>
+            <td>Zaina Goldsmith</td>
+            <td>zaina.goldsmith@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#3</th>
+            <td>Mahima Lopez</td>
+            <td>Mahima Lopez</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#4</th>
+            <td>Pharrell Murray</td>
+            <td>pharrell.murray@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#5</th>
+            <td>Annika Mcbride</td>
+            <td>annika.mcbride@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#6</th>
+            <td>Fatimah Clark</td>
+            <td>fatimah.clark@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#7</th>
+            <td>Klaudia Rhodes</td>
+            <td>klaudia.rhodes@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#8</th>
+            <td>Tillie Lucero</td>
+            <td>tillie.lucero@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#9</th>
+            <td>Sabrina Stephenson</td>
+            <td>sabrina.stephenson@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">#10</th>
+            <td>Annie Smith</td>
+            <td>annie.smith@mail.com</td>
+            <td>Yes</td>
+            <td>
+                <img src="./assets/images/visibility_sign.svg" alt="visibility">
+                <img src="./assets/images/edit_sign.svg" alt="edit">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- Admin Pagination -->
+<nav aria-label="Page navigation Admin" class="admin_pagination">
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&lt;</span>
+            </a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&gt;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Add New admin modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+.admin_table {
+    margin: 48px 0 69px 0;
+
+    thead {
+        border-bottom: 1px solid #000;
+    }
+
+    tbody {
+        tr {
+            border-bottom: 1px solid #CED4DA;
+            height: 55px;
+
+            td,
+            th {
+                vertical-align: middle;
+            }
+
+            td:last-child {
+                text-align: right;
+
+                img:last-child {
+                    margin-left: 24px;
+                }
+            }
+        }
+    }
+}
