@@ -143,6 +143,10 @@ body {
   font-size: 16px;
   font-family: 'Lato', 'Roboto Mono', monospace; }
 
+h2 {
+  font-size: 24px;
+  font-weight: 700; }
+
 .d-f {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,6 +185,9 @@ body {
 .mr-16 {
   margin-right: 16px; }
 
+.ml-7 {
+  margin-left: 7px; }
+
 .pl-32 {
   padding-left: 32px; }
 
@@ -196,8 +203,14 @@ body {
 .fz-14 {
   font-size: 14px; }
 
+.fz-24 {
+  font-size: 24px; }
+
 .fc-gray-600 {
   color: #6C757D; }
+
+.fc-gray-900 {
+  color: #212529; }
 
 .text_hide_behide_img {
   text-indent: 101%;
@@ -251,6 +264,38 @@ body {
   width: 77%;
   height: 100%;
   top: 0;
-  left: 23%; }
+  left: 23%;
+  padding: 32px; }
+
+.content_header .content_header_title_function {
+  width: 266px; }
+  .content_header .content_header_title_function a {
+    width: 148px; }
+
+.content_header .content_header_search_notice {
+  width: 70px; }
+
+.admin_table {
+  margin: 48px 0 69px 0; }
+  .admin_table thead {
+    border-bottom: 1px solid #000; }
+  .admin_table tbody tr {
+    border-bottom: 1px solid #CED4DA;
+    height: 55px; }
+    .admin_table tbody tr td,
+    .admin_table tbody tr th {
+      vertical-align: middle; }
+    .admin_table tbody tr td:last-child {
+      text-align: right; }
+      .admin_table tbody tr td:last-child img:last-child {
+        margin-left: 24px; }
+
+.admin_pagination {
+  position: fixed;
+  right: 32px; }
+  .admin_pagination .pagination {
+    border: 1px solid #198754; }
+    .admin_pagination .pagination .active {
+      background-color: #198754; }
 
 /*# sourceMappingURL=all.css.map */
