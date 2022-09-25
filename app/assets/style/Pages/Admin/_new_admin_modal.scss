@@ -1,0 +1,27 @@
+.AdminModal {
+    h6 {
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 16px;
+    }
+
+    .modal-body {
+        .form-class {
+            border-top: 1px solid #CED4DA;
+            padding-top: 24px;
+            margin-top: 24px;
+
+            .Verified_Date {
+                position: absolute;
+                right: 1rem;
+            }
+        }
+    }
+
+    .modal-footer {
+        button {
+            padding: 8px 33px 8px 33px;
+            border: 1px solid #198754;
+        }
+    }
+}
