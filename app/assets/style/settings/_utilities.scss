@@ -64,12 +64,24 @@
 
 // padding
 
+.p-12 {
+    padding: 12px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
 .p-32 {
     padding: 32px;
 }
 
 .ptb-16 {
     padding: 16px 0 16px 0;
+}
+
+.pr-16 {
+    padding-right: 16px;
 }
 
 .pl-16 {
@@ -80,8 +92,16 @@
     padding-left: 32px;
 }
 
+.pt-12 {
+    padding-top: 12px;
+}
+
 .pt-40 {
     padding-top: 40px;
+}
+
+.pb-12 {
+    padding-bottom: 12px;
 }
 
 .pb-32 {
@@ -89,6 +109,10 @@
 }
 
 // font 
+
+.lh-15 {
+    line-height: 1.5;
+}
 
 .fw-600 {
     font-weight: 600;
@@ -104,6 +128,10 @@
 
 .fw-bold {
     font-weight: bold;
+}
+
+.fz-12 {
+    font-size: 12px;
 }
 
 .fz-14 {
@@ -154,4 +182,13 @@
 
 .bgc-198754 {
     background: #198754;
+}
+
+.bgc-F8F9FA {
+    background: #F8F9FA;
+}
+
+// text
+.t-a-r {
+    text-align: right;
 }
